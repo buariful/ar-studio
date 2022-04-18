@@ -1,7 +1,8 @@
 import { AcademicCapIcon } from '@heroicons/react/solid';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Blog = () => {
+
     return (
         <div className='w-10/12 mx-auto'>
             <AcademicCapIcon className='w-24 text-teal-700 mt-4 mb-6 mx-auto'></AcademicCapIcon>
