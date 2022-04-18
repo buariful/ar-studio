@@ -1,4 +1,4 @@
-import { MenuAlt2Icon, MenuIcon, XIcon } from '@heroicons/react/solid';
+import { MenuIcon, XIcon } from '@heroicons/react/solid';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../img/logo.png'
