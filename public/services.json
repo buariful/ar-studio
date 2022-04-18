@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Lifestyle photography",
+        "lens": "Yes",
+        "lighting": "Yes",
+        "metadata": "No",
+        "hosting": "No",
+        "editing": "Yes",
+        "price": "100",
+        "img": "https://cdn.pixabay.com/photo/2018/01/24/19/49/people-3104635__340.jpg"
+    },
+    {
+        "name": "Food photography",
+        "lens": "Yes",
+        "lighting": "Yes",
+        "metadata": "Yes",
+        "hosting": "No",
+        "editing": "Yes",
+        "price": "280",
+        "img": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg"
+    },
+    {
+        "name": "Social media photography",
+        "lens": "Yes",
+        "lighting": "Yes",
+        "metadata": "Yes",
+        "hosting": "Yes",
+        "editing": "Yes",
+        "price": "1000",
+        "img": "https://cdn.pixabay.com/photo/2016/03/03/10/17/social-media-1233873__340.jpg"
+    },
+    {
+        "name": "Wedding photography",
+        "lens": "Yes",
+        "lighting": "Yes",
+        "metadata": "Yes",
+        "hosting": "Yes",
+        "editing": "Yes",
+        "price": "1000",
+        "img": "https://cdn.pixabay.com/photo/2016/11/18/18/32/wedding-1836315__340.jpg"
+    },
+    {
+        "name": "Corporate team photography",
+        "lens": "Yes",
+        "lighting": "Yes",
+        "metadata": "No",
+        "hosting": "Yes",
+        "editing": "Yes",
+        "price": "500",
+        "img": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg"
+    }
+]
