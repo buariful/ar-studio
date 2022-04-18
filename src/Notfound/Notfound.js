@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../components/Home/Home';
 import image from '../img/404_img.jpg'
 
 const Notfound = () => {
