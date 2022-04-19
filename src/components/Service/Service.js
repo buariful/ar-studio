@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Cart from '../Login/Cart/Cart';
 
 const Service = (props) => {
     const { name, lens, lighting, metadata, hosting, editing, price, img } = props.data;
@@ -16,7 +17,7 @@ const Service = (props) => {
                     <li>Photo editing <span className='text-teal-700 text-right font-medium'>{editing}</span></li>
                     <li>Price <span className='text-teal-700 text-right font-bold text-2xl'>${price}</span></li>
                 </ul>
-                <Link to='/cart' className='py-2 px-10 bg-teal-500 text-white rounded-md mt-10 block text-center'>Purchase</Link>
+                <Link to='/login' className='py-2 px-10 bg-teal-500 text-white rounded-md mt-10 block text-center' onClick={() => { <Cart data={props.data}></Cart> }}>Purchase</Link>
             </div>
         </div>
     );

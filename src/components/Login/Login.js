@@ -9,6 +9,7 @@ const Login = () => {
     const passLogRef = useRef('');
     const [errors, seterror] = useState('')
 
+    // sign in with email and password
     const [
         signInWithEmailAndPassword,
         user,
@@ -21,6 +22,7 @@ const Login = () => {
     );
 
     const navigate = useNavigate('');
+    let loadingSpinner;
 
     const handleLogin = event => {
         event.preventDefault();
@@ -29,16 +31,21 @@ const Login = () => {
         signInWithEmailAndPassword(email, password);
 
         if (user) {
-            navigate('/blog')
+            navigate('/cart')
         }
         if (error) {
             seterror(error.message)
+        }
+        if (loading) {
+            loadingSpinner = "Please wait....";
         }
     }
 
     return (
         <div>
             <h1 className='text-teal-700 text-2xl font-bold text-center my-5'>Log In</h1>
+
+            <p>{loadingSpinner}</p>
             <form className='md:w-1/2 mx-auto' onSubmit={handleLogin}>
 
                 <input
@@ -74,6 +81,7 @@ const Login = () => {
                     </button>
                 </div>
             </form>
+            {/* login with google */}
             <SocialLogin></SocialLogin>
         </div>
     );

@@ -36,7 +36,7 @@ const Signup = () => {
             seterror(error.message)
         }
         else if (user) {
-            navigate("/about")
+            navigate("/cart")
         }
         else {
 

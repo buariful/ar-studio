@@ -9,6 +9,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
+import Cart from './components/Login/Cart/Cart';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
