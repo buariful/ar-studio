@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Gallery from '../Gallery/Gallery';
 import Service from '../Service/Service';
 import './Home.css'
 
@@ -25,9 +26,12 @@ const Home = () => {
             </div>
             {/* services */}
             <h1 className="text-center font-bold text-teal-600 text-4xl mt-16">Services</h1>
-            <div className="w-11/12 grid grid-cols-1 md:grid-cols-3 mx-auto gap-8 mt-12">
+            <div className="w-11/12 grid grid-cols-1 md:grid-cols-3 mx-auto gap-8 mt-12 mb-20">
                 {services.map(service => <Service data={service} key={service.id}></Service>)}
             </div>
+
+            {/* gallery */}
+            <Gallery></Gallery>
         </div>
     );
 };

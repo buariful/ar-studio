@@ -8,3 +8,5 @@ live site link : https://incredible-piroshki-93c289.netlify.app/
 3. Firebase authentication
 4. Hero icons
 5. React router
+
+# Responsive site for desktop and mobile devices
